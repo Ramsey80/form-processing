@@ -26,3 +26,15 @@ function titleCase(str) {
     return str.join(' ');
   }
 // Title case for loop END
+/*
+function titleCase(str){
+  str = str.split(" ");
+
+  for(let x = 0; x < str.length;x++){
+    str[x] = str[x].charAt(0).toUpperCase() + str[x].slice(1).toLowerCase();
+  }
+  return str.join(" ");
+}
+
+
+*/
